@@ -31,6 +31,7 @@ int main() {
         }
         printf("\n");
     }
+    free(parola);
 
     return 0;
 }
