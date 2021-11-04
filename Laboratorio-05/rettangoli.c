@@ -31,6 +31,7 @@ int main() {
     duep = 2 * (b + h);
     printf("Area del rettangolo: %f\n", area);
     printf("Perimetro del rettangolo: %f\n", duep);
+    free(r);
 
     return 0;
 }
