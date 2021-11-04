@@ -16,7 +16,6 @@ int main() {
 
     if (t >= 0) {
         lato = latoCristallo(t);
-        printf("%d\n", lato);
         matrix = creaMatrice(lato);
         if (matrix == NULL) {
             printf("Impossibile allocale la memoria\n");
