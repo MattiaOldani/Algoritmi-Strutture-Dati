@@ -16,6 +16,8 @@ int main() {
         switch (c) {
             case 'b':
                 scanf(" %d", &n);
+                if (reg != NULL)
+                    free(reg);
                 reg = newBook(n);
                 if (reg == NULL) {
                     printf("ERRORE: impossibile allocare la memoria\n");
@@ -42,7 +44,9 @@ int main() {
                 break;
         }
     }
-
+    
+    for (int i = 0; i < n; i++)
+        free(reg[i);
     free(reg);
 
     return 0;
