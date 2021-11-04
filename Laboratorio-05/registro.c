@@ -10,7 +10,7 @@ void printBook(char **reg, int n);
 
 int main() {
     int n, k, from, to;
-    char **reg, *name, c;
+    char **reg = NULL, *name, c;
 
     while ( (c = getchar()) != 'f' ) {
         switch (c) {
