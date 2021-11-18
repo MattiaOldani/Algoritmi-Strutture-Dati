@@ -1,8 +1,8 @@
-#include"item.h"
-
 #ifndef STACK_H
 
 #define STACK_H
+
+#include"item.h"
 
 // Svuota la pila
 void make_empty();
